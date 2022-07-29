@@ -20,7 +20,6 @@ export default function App() {
   }
   const handlePlay = () => {
     if (audioPlayer.current.paused) {
-      audioPlayer.current.load();
       audioPlayer.current.play();
     } else {
       audioPlayer.current.pause();
